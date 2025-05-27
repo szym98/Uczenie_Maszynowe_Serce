@@ -28,15 +28,7 @@ W projekcie zastosowano następujące algorytmy:
 Dane zostały odpowiednio przeskalowane, podzielone na zbiory treningowe i testowe oraz zbadane wizualnie.  
 W ramach analizy porównano skuteczność modeli osobno dla klasy „Zmarł” i „Przeżył”.
 
-## Wyniki modeli
 
-| Model               | Dokł. trening (%) | Dokł. test (%) | CV (5-fold) (%) | F1-score (Zmarł) | Recall (Zmarł) |
-|---------------------|------------------|----------------|------------------|------------------|----------------|
-| **Regresja logistyczna** | 83.26            | 80.00         | 77.25            | 0.73             | 0.64              |
-| **SVM**                 | 84.52            | 80.00         | 79.92            | 0.74             | 0.68          
-| **Random Forest**       | 92.89            | 73.33         | 84.61            | 0.60             | 0.48          
-| **Decision Tree**       | 91.21            | 68.33         | 81.18            | 0.56             | 0.48          
-## Podsumowanie
 
 Najlepsze wyniki osiągnęły modele regresji logistycznej oraz SVM, które zapewniły wysoką jakość predykcji przy jednocześnie zrównoważonych metrykach.  
 Modele drzewiaste, mimo wysokiej dokładności na treningu, wykazały tendencję do przeuczenia (overfitting), co ograniczyło ich skuteczność na danych testowych.
